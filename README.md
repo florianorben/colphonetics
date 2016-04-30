@@ -1,7 +1,6 @@
 # colphonetics
 
-Cologne phonetics (Kölner Phonetik) is an algorithm related to soundex but optimized for the German language
-It calculates a phonetic code for a given sequence of words.
+Cologne phonetics (Kölner Phonetik) is an algorithm related to soundex but optimized for the German language. It calculates a phonetic code for a given sequence of words.
 
 Master: [![Build Status](https://travis-ci.org/florianorben/colphonetics.svg?branch=master)](https://travis-ci.org/florianorben/colphonetics/)
 
@@ -23,7 +22,7 @@ import (
 )
 
 func main() {
-	fmt.Println(Code("Müller-Lüdenscheidt"))
+	fmt.Println(colphonetics.Code("Müller-Lüdenscheidt"))
     // Output: 65752682	
 }
 ```
