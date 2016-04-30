@@ -1,7 +1,9 @@
 # colphonetics
 
 Cologne phonetics (Kölner Phonetik) is an algorithm related to soundex but optimized for the German language
-It calculates a phonetic code for a given sequence of words
+It calculates a phonetic code for a given sequence of words.
+
+Master: [![Build Status](https://travis-ci.org/florianorben/colphonetics.svg?branch=master)](https://travis-ci.org/florianorben/colphonetics/)
 
 ## Installation
 
