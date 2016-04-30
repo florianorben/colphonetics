@@ -106,6 +106,7 @@ var (
 		"kx": "8",
 		"qx": "8",
 	}
+
 	exceptionsLeading = map[string]string{
 		"CA": "4",
 		"CH": "4",
